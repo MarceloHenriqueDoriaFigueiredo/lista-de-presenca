@@ -1,6 +1,6 @@
 import styles from './Style.module.css'
 
-function Card(props){
+export function Card(props){
     return(
         <div className={styles.card}>
             <strong>{props.name}</strong>
@@ -8,5 +8,3 @@ function Card(props){
         </div>
     )
 }
-
-export default Card

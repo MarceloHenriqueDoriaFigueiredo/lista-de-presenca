@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import Card from '../../components/Card/Index'
+import { Card } from '../../components/Card/Index'
 
 import styles from './Style.module.css'
 
-function Home() {
+export function Home() {
   const [studentName, setStudentName] = useState('');
   const [students, setStudents] = useState([])
   const [user, setUser] = useState({ name: '', avatar: '' })
@@ -64,5 +64,3 @@ function Home() {
     </div>
   )
 }
-
-export default Home
