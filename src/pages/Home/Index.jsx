@@ -47,7 +47,7 @@ export function Home() {
         </div>
       </header>
 
-      <input type="text"
+      <input id="input" type="text"
       placeholder="Informe seu nome" 
       onChange={e => setStudentName(e.target.value)} />
       <button id="button" type="button" onClick={handleAddStudent}>Adicionar</button>

@@ -1,0 +1,17 @@
+@media (max-width: 600px) {
+    header{
+        flex-direction: column-reverse;
+    }
+
+    #input{
+        width: 73%;
+    }
+
+    #button{
+        width: 73%;
+    }
+
+    #card{
+        width: 88%;
+    }
+}
