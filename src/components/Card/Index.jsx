@@ -1,8 +1,8 @@
-import './style.css'
+import styles from './Style.module.css'
 
 function Card(props){
     return(
-        <div className="card">
+        <div className={styles.card}>
             <strong>{props.name}</strong>
             <small>{props.time}</small>
         </div>

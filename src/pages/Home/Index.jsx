@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import './style.css'
 import Card from '../../components/Card/Index'
+
+import styles from './Style.module.css'
 
 function Home() {
   const [studentName, setStudentName] = useState('');
@@ -36,7 +37,7 @@ function Home() {
   }, []);
 
   return (
-    <div className="container">
+    <div className={styles.container}>
       <header>
         <h1>Lista de presença</h1>
 
