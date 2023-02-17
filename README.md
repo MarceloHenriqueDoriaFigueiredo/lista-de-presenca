@@ -35,7 +35,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O projeto foi desenvolvido durante as aulas do curso Discover da Rocketseat. A ideia do projeto foi criar uma lista de presenca onde e possivel registrar
 uma pessoa e além disso, quando registrada, saber o horario em que ela foi adicionada na lista. Foi proposto também que na foto do perfil da lista fosse
-utilizado a API do Github para obetermos informações como nome e foto de forma dinamica.
+utilizado a API do Github para obetermos informações como nome e foto de forma dinamica. Com o desenvolvimento do projeto pude aprender mais sobre consumo
+de APIs no react além de fixar meus conhecimento no mesmo
 
 
 ## :memo: Licença
